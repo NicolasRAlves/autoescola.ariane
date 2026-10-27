@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://autoescolaariane.com.br/sitemap.xml

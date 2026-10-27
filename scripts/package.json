@@ -1,0 +1,15 @@
+{
+  "name": "autoescola-ariane-scripts",
+  "private": true,
+  "type": "module",
+  "description": "Scripts de manutenção do site (não vão para a hospedagem).",
+  "scripts": {
+    "instagram": "node importar-instagram.mjs",
+    "imagens": "node otimizar-imagens.mjs",
+    "links": "node checar-links.mjs",
+    "servidor": "npx --yes serve@14.2.4 .. -l 8080"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.3"
+  }
+}
